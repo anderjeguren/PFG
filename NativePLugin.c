@@ -1,1 +1,1 @@
-float FooPluginFunction () { return 5.0F; } 
+float FooPluginFunction () { return 6.0F; } 
