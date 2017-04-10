@@ -66,7 +66,7 @@ internal class PluginBehaviour : MonoBehaviour {
         var gray = cvtColor(ref img);
         gaussianBlur(ref gray);
         canny(ref gray);
-        if (!imageShow(ref gray, "Hello world!"))
+        if (!imageShow(ref gray, "Blur window"))
         {
             releaseImage(ref gray);
             releaseImage(ref img);
